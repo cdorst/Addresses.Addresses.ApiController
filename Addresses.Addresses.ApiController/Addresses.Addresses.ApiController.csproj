@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>ASP.NET Core web API controller for Address entities</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.Addresses.Addresses.ApiController</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/Addresses.Addresses.ApiController/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/Addresses.Addresses.ApiController</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/Addresses.Addresses.ApiController</RepositoryUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Addresses.Addresses.DatabaseContext" Version="1.0.0" />
+    <PackageReference Include="CDorst.DevOps.Code.DataAccess.Metapackages.ApiControllers" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
